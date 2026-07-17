@@ -27,7 +27,7 @@ git push -u origin main
 저장소의 `Settings > Pages`에서 `Deploy from a branch`, `main`, `/ (root)`를 선택하면 아래 주소로 배포됩니다.
 
 ```text
-https://ilhoonseo.github.io/mosolting-web/
+https://mosolting.com/
 ```
 
 저장소 이름이나 GitHub 계정이 달라지면 `index.html`, `robots.txt`, `sitemap.xml`의 공개 URL을 실제 주소로 변경합니다.
@@ -43,7 +43,7 @@ https://ilhoonseo.github.io/mosolting-web/
 웹 계정 삭제 로그인을 사용하려면 Supabase Authentication의 Redirect URLs에 다음 주소를 등록해야 합니다.
 
 ```text
-https://ilhoonseo.github.io/mosolting-web/delete-account.html
+https://mosolting.com/delete-account.html
 ```
 
 `js/runtime-config.js`에는 브라우저 공개용 Supabase publishable key만 둡니다. `service_role` 키는 절대 저장하지 않습니다.

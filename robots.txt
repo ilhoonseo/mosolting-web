@@ -1,5 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://ilhoonseo.github.io/mosolting-web/sitemap.xml
-
+Sitemap: https://mosolting.com/sitemap.xml
